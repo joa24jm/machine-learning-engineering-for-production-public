@@ -23,3 +23,5 @@ def predict(wine: Wine):
     np_batches = np.array(batches)
     pred = clf.predict(np_batches).tolist()
     return {"Prediction": pred}
+
+# That's my comment just to push changes on the remote. What great work I have done.
